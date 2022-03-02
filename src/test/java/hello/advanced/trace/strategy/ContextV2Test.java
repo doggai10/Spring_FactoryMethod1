@@ -45,4 +45,16 @@ public class ContextV2Test {
         context.execute(() -> log.info("비즈니스 로직1 실행"));
         context.execute(() -> log.info("비즈니스 로직2 실행"));
     }
+<<<<<<< HEAD
+=======
+
+//    @Test
+//    public void strategyV4(){
+//        ContextV1 context1 = new ContextV1(()->log.info("비즈니스 로직1 실행"));
+//        context1.execute();
+//
+//        ContextV1 context2 = new ContextV1(() -> log.info("비즈니스 로직2 실행"));
+//        context2.execute();
+//    }
+>>>>>>> origin/master
 }
